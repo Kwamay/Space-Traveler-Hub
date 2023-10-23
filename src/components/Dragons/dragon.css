@@ -1,0 +1,127 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+.singledragon {
+  display: flex;
+  height: 50%;
+  border: 1px solid;
+  border-color: black;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 1px 30px;
+}
+
+.dragon-image {
+  height: 300px;
+  width: 300px;
+}
+
+.dragon-data {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.dragon-name {
+  font-size: 24px;
+  margin-top: 0%;
+  margin-bottom: 20px;
+}
+
+.dragon-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.dragon-button {
+  background-image: linear-gradient(92.88deg, #455eb5 9.16%, #5643cc 43.89%, #673fd7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.dragon-button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  .dragon-button6 {
+    padding: 0 2.6rem;
+  }
+}
+
+.button-39 {
+  background-color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  border: solid black;
+  color: #030000;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.8rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-39:hover {
+  background-color: rgb(249, 250, 251);
+}
+
+.button-39:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button-39:focus-visible {
+  box-shadow: none;
+}
+
+.button-23 {
+  display: inline;
+}
+
+.button-22 {
+  background-color: #91d5ff;
+  border: 1px solid #222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  outline: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}

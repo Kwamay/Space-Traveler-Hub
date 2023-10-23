@@ -1,0 +1,67 @@
+/* Navbar Container */
+.navbar-container {
+  width: 100vw;
+  height: 90px;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 98%;
+  padding: 0 2vw;
+  border-bottom: 1.5px solid #dbdbdc;
+}
+
+/* Brand Section */
+.brand-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+}
+
+/* Logo Image */
+.logo-image {
+  width: 60px;
+  height: 60px;
+}
+
+/* Logo Title */
+.logo-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+
+  /* Consider using a color variable instead of hardcoding color */
+}
+
+/* Navigation Menu */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Navigation List Item */
+.nav-item {
+  list-style-type: none;
+  padding: 0 2vw; /* Use relative units for padding */
+}
+
+/* Add a border to all but the last list item */
+.nav-item:nth-child(3) {
+  border-right: 2px solid #212529;
+}
+
+/* Navigation Link */
+.nav-link {
+  color: #007bff; /* Consider using a color variable */
+  text-decoration: none;
+}
+
+/* Active Link Style */
+.active-link {
+  text-decoration: underline;
+}
